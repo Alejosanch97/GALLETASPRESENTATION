@@ -1,0 +1,37 @@
+/* ───────────── 917 · BRANDING ─────────────
+   "Laboratorio de medianoche": azul cobalto profundo (la ciencia),
+   mantequilla y mandarina (el horno) y rubor de avellana (el relleno).
+   Nada de blanco + café. */
+:root {
+  --ink: #0f1538;        /* medianoche cobalto · fondo */
+  --ink-2: #172057;      /* superficie */
+  --ink-3: #222c6e;      /* superficie elevada */
+  --cobalt: #3a57f0;     /* ciencia / datos */
+  --sky: #8fa3ff;        /* cobalto claro para gráficas */
+  --butter: #ffe08a;     /* mantequilla */
+  --cream: #fff4e0;      /* texto principal */
+  --tang: #ff6a3d;       /* mandarina · acento 917 */
+  --blush: #ff9fb5;      /* avellana rosada */
+  --muted: #aab1dc;      /* texto secundario */
+  --line: rgba(255, 244, 224, 0.12);
+  --line-strong: rgba(255, 244, 224, 0.28);
+
+  --f-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --f-serif: "Instrument Serif", Georgia, serif;
+  --f-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root { height: 100%; }
+
+body {
+  background: var(--ink);
+  color: var(--cream);
+  font-family: var(--f-display);
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  user-select: none;
+}
+
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
